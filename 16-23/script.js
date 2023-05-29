@@ -24,3 +24,10 @@
 // else{
 //     alert(`${text.toUpperCase()}`);
 // }
+
+// 19. Пользователь вводит строку. Необходимо повторить ее трижды 
+// const text=prompt();
+
+//   for(i=0;i<3;i++){  console.log(`${text.toUpperCase()}`);}
+
+//   for(i=0;i<3;i++){  alert(`${text.toUpperCase()}`);}
