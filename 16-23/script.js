@@ -61,10 +61,23 @@
 // х-х-х-х-х-х...
 // hsChOoL -> h-s-c-h-o-o-l
 
- const text=prompt();
+//  const text=prompt();
+// if(!isNaN(text)){
+//     alert('error');
+// }
+// else{
+//     console.log(((text.toLowerCase()).split('')).join('-'));
+// }
+
+// 23. Ввести строку. Проверить является ли это число или строка. Если число, то
+// выяснить, четное или нет. Если это строка то преобразовать строку в массив, где
+// каждый символ – один элемент массива
+// ‘hschool’ => [‘h’, ‘s’, ‘c’, ‘h’, ‘o’, ‘o’, ‘l’]
+
+const text=prompt();
 if(!isNaN(text)){
-    alert('error');
+    alert(`${Number(text)%2==0?'четное':'нечетное'}`);
 }
 else{
-    console.log(((text.toLowerCase()).split('')).join('-'));
+    console.log(text.split(''));
 }
