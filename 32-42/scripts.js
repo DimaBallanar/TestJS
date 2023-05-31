@@ -23,3 +23,9 @@
 // let text1=text.split(' ')[0];
 // console.log(text1);
 // console.log(text.indexOf(text.split(' ')[1]));
+
+
+// 34.Пользователь вводит дату в формате ‘х-х-х'. Замените все дефисы на '!'
+
+// const text=prompt();
+// alert(text.replaceAll('-','!'));
