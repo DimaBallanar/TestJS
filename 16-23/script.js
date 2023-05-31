@@ -74,10 +74,10 @@
 // каждый символ – один элемент массива
 // ‘hschool’ => [‘h’, ‘s’, ‘c’, ‘h’, ‘o’, ‘o’, ‘l’]
 
-const text=prompt();
-if(!isNaN(text)){
-    alert(`${Number(text)%2==0?'четное':'нечетное'}`);
-}
-else{
-    console.log(text.split(''));
-}
+// const text=prompt();
+// if(!isNaN(text)){
+//     alert(`${Number(text)%2==0?'четное':'нечетное'}`);
+// }
+// else{
+//     console.log(text.split(''));
+// }
