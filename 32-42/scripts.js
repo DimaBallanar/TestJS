@@ -47,3 +47,13 @@
 
 // const arr=['я', 'учу', 'javascript', '!'];
 // console.log(arr.join('+'));
+
+// 38.На вход программе подается строка, состоящая из имени и фамилии человека,
+// разделенных одним пробелом. Напишите программу, которая проверяет, что имя
+// и фамилия начинаются с заглавной буквы.
+// Chris Alan => true
+// chris alan => false
+
+const text=prompt();
+alert((text.split(' ')[0])[0]===(text.split(' ')[0])[0].toUpperCase()&&(text.split(' ')[1])[0]===(text.split(' ')[1])[0].toUpperCase());
+// alert((text.split(' ')[0])[0].toUpperCase())
