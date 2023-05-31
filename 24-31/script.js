@@ -56,3 +56,10 @@
 
 // const text='aaa bbb ccc';
 // console.log(text.replace(' bbb','').trim());
+
+
+// 31. На вход программе подается переменная date, в котрой лежит дата в формате
+// 'xxxx-xx-xx'. Преобразуйте эту дату в формат 'xx/xx/xxxx’. (reverse)
+
+// var date='xxxx-xx-xx';
+// alert((date.split('-')).reverse().join('-'));
