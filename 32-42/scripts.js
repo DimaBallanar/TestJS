@@ -35,3 +35,15 @@
 
 // const text=prompt();
 // alert(text.split('-').reverse().join('.'));
+
+// 36. На вход подается url. Если он начинается с http, содержит хотя бы один “/” и
+// заканчивается подстрокой .com или .ru, то вывести true, в противном случае false
+
+// const url=prompt();
+// alert(url.startsWith('http')&&url.includes('/')&&(url.endsWith('.com')||url.endsWith('.ru')));
+
+// 37. Дан массив ['я', 'учу', 'javascript', '!']. С помощью метода join преобразуйте массив в
+// строку 'я+учу+javascript+!.
+
+// const arr=['я', 'учу', 'javascript', '!'];
+// console.log(arr.join('+'));
