@@ -7,10 +7,16 @@
 // 25. Ввести строку. Проверить на isNaN. Если число, то ошибка ввода. Если это строка
 // то узнать какая у нее длина. Привести к одному регистру, убрать лишние пробелы
 
-const text=prompt().trim();
-if(!isNaN(text)){
-    alert('error')
-}
-else{
-    alert(`у строки ${text.toLowerCase()} ${text.length} символов`);
-}
+// const text=prompt().trim();
+// if(!isNaN(text)){
+//     alert('error')
+// }
+// else{
+//     alert(`у строки ${text.toLowerCase()} ${text.length} символов`);
+// }
+
+
+// 26. ‘HTML JavaScript PHP’ преобразовать в "HTML-JAVASCRIPT-PHP"
+ 
+const text='HTML JavaScript PHP';
+alert(text.replaceAll(' ','-'))
