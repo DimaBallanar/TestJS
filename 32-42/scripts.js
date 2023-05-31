@@ -29,3 +29,9 @@
 
 // const text=prompt();
 // alert(text.replaceAll('-','!'));
+
+// 35. Пользователь вводит дату в формате 'xxxx-xx-xx'. Преобразуйте эту дату в формат
+// 'xx.xx.xxxx.
+
+// const text=prompt();
+// alert(text.split('-').reverse().join('.'));
