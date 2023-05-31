@@ -51,3 +51,8 @@
 // text.split('').forEach(element => {if(element=='@'){newtext+='!';} else{newtext+=element}})
 // console.log(newtext);
     
+
+// 30.Дана строка . Вырежите из нее слово 'bbb'
+
+// const text='aaa bbb ccc';
+// console.log(text.replace(' bbb','').trim());
