@@ -80,5 +80,17 @@
 // 41. На вход программе подается строка текста, состоящая из слов, разделенных
 // ровно одним пробелом. Напишите программу, которая подсчитывает количество
 // слов в ней
+
 // const text='dff dfdfds sfsdf sdfs fsd sfsd fsdf sdf dsf sdsg';
 // alert(text.split(' ').length);
+
+// 42.Пользователь вводит строку. Необходимо посчитать количество гласных
+
+const text=prompt().toLowerCase().split('');
+let i=0;
+const glas='аяуюоеёэиыaeiouy';
+text.forEach(element => {
+    if(glas.includes(element))
+    {i++;}    
+});
+alert(i);
