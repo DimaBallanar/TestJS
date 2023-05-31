@@ -37,5 +37,17 @@
 // проверяет, что строка заканчивается подстрокой .com или .ru. Если
 // заканчивается, то вывести true, в противном случае false
 
-const text=prompt();
-alert(text.endsWith('.ru')||text.endsWith('.com'));
+// const text=prompt();
+// alert(text.endsWith('.ru')||text.endsWith('.com'));
+
+// 29. На вход программе подаётся строка. Замените все @ на '!' (2 способа)
+
+// const text=prompt();
+// 1 способ
+// alert(text.replaceAll('@','!'));
+
+// 2 способ
+// let newtext='';
+// text.split('').forEach(element => {if(element=='@'){newtext+='!';} else{newtext+=element}})
+// console.log(newtext);
+    
