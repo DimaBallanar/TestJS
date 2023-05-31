@@ -70,8 +70,15 @@
 
 // 40.Дан массив. Вывести каждый отдельный элемент в консоль (for)
 
-const arr= ['я', 'учу', 'javascript', '!'];
-for(i=0;i<arr.length;i++)
-{
-    console.log(arr[i]);
-}
+// const arr= ['я', 'учу', 'javascript', '!'];
+// for(i=0;i<arr.length;i++)
+// {
+//     console.log(arr[i]);
+// }
+
+
+// 41. На вход программе подается строка текста, состоящая из слов, разделенных
+// ровно одним пробелом. Напишите программу, которая подсчитывает количество
+// слов в ней
+// const text='dff dfdfds sfsdf sdfs fsd sfsd fsdf sdf dsf sdsg';
+// alert(text.split(' ').length);
