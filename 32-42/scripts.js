@@ -54,6 +54,24 @@
 // Chris Alan => true
 // chris alan => false
 
-const text=prompt();
-alert((text.split(' ')[0])[0]===(text.split(' ')[0])[0].toUpperCase()&&(text.split(' ')[1])[0]===(text.split(' ')[1])[0].toUpperCase());
+// const text=prompt();
+// alert((text.split(' ')[0])[0]===(text.split(' ')[0])[0].toUpperCase()&&(text.split(' ')[1])[0]===(text.split(' ')[1])[0].toUpperCase());
 // alert((text.split(' ')[0])[0].toUpperCase())
+
+
+// 39. На вход программе подается строка текста. Напишите программу, которая
+// определяет является ли строка хорошей. Текст хороший, если содержит
+// подстроку «хорош» во всевозможных регистрах.
+// я очень хороший текст => true
+
+// const text=prompt();
+// alert((text.toLowerCase()).includes('хорош'));
+
+
+// 40.Дан массив. Вывести каждый отдельный элемент в консоль (for)
+
+const arr= ['я', 'учу', 'javascript', '!'];
+for(i=0;i<arr.length;i++)
+{
+    console.log(arr[i]);
+}
