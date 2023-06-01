@@ -27,9 +27,23 @@
 // 13. Дан массив с элементами [2, 3, 4, 5]. С помощью цикла for найдите произведение
 // элементов этого массива
 
-const array=[2,3,4,5];
-let result=1;
-for(let i=0;i<array.length;i++){
-    result*=array[i];
+// const array=[2,3,4,5];
+// let result=1;
+// for(let i=0;i<array.length;i++){
+//     result*=array[i];
+// }
+// alert(result);
+
+
+// 14. На вход число. Необходимо вывести все числа от 1 до введенного числа. Добавить
+// проверку вводимого значения, если это текст –> сообщение об ошибке
+
+// const number = prompt();
+// if (isNaN(number)) {
+//     alert('error');
+// }
+// else{
+//     for(let i=0;i<=number;i++){
+//         console.log(`${i}\n`);
+//     }
 }
-alert(result);
