@@ -78,10 +78,24 @@
 
 // 17. Дан массив с элементами 1, 2, 3, 4, 5, 6, 7, 8, 9. С помощью цикла for создайте строку
 // '-1-2-3-4-5-6-7-8-9-‘
-const array=[1, 2, 3, 4, 5, 6, 7, 8, 9];
-let text='';
-for(let i=0;i<array.length;i++){
-    text+='-'+array[i];
+// const array=[1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let text='';
+// for(let i=0;i<array.length;i++){
+//     text+='-'+array[i];
+// }
+// text+='-';
+// alert(text);
+
+
+// 18. На вход подается число произвольной длины. Необходимо обратиться к каждому
+// значению числа и выявить четность/нечетность
+// 1234 -> 1 неч 2 чет 3 неч 4 чет
+// 444444 -> 4 чет 4 чет 4 чет 4 чет 4 чет 4 чет
+
+const number=prompt();
+let result='';
+for(let i=0;i<number.length;i++){
+    result+='  '+number[i]+'  ';
+result+=Number(number[i])%2?'чет':'неч'+'   ';
 }
-text+='-';
-alert(text);
+alert(result);
