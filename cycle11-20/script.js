@@ -92,10 +92,18 @@
 // 1234 -> 1 неч 2 чет 3 неч 4 чет
 // 444444 -> 4 чет 4 чет 4 чет 4 чет 4 чет 4 чет
 
-const number=prompt();
-let result='';
-for(let i=0;i<number.length;i++){
-    result+='  '+number[i]+'  ';
-result+=Number(number[i])%2?'чет':'неч'+'   ';
+// const number=prompt();
+// let result='';
+// for(let i=0;i<number.length;i++){
+//     result+='  '+number[i]+'  ';
+// result+=Number(number[i])%2?'чет':'неч'+'   ';
+// }
+// alert(result);
+
+
+// 19. Выведите столбец чисел от 1 до 50. for, while
+let i=1;
+while(i<=50){
+    console.log(i);
+    i++;
 }
-alert(result);
