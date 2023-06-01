@@ -7,10 +7,19 @@
 // ***
 // **
 
-let number=+prompt();
-const text='*';
-for(number;1<=number;number--)
-{
-console.log(text.repeat(number));
-console.log('\n');
-}
+// let number=+prompt();
+// const text='*';
+// for(number;1<=number;number--)
+// {
+// console.log(text.repeat(number));
+// console.log('\n');
+// }
+
+// 12. Найдите минимальное значение в массиве используя цикл
+const array=[1,2,3,4,5,6,7,2,34,2542,3,12,312,4412,21,2131,31,414,12211,3,-88];
+let i=0;
+array.forEach(element => {
+    if(i>=element){i=element}    
+});
+
+alert(i);
