@@ -80,14 +80,22 @@
 // alert(`${text[0].toUpperCase()}${text.slice(1,text.length)}`);
 
 // 8. Преобразуйте первую букву каждого слова строки в верхний регистр.
-const text=prompt();
-let array=text.split(' ');
-let result='';
-for(let i=0;i<array.length;i++){
-    array[i]=(array[i])[0].toUpperCase()+array[i].slice(1,array[i].length);   
-}
-console.log(array.join(' '));
+// const text=prompt();
+// let array=text.split(' ');
+// let result='';
+// for(let i=0;i<array.length;i++){
+//     array[i]=(array[i])[0].toUpperCase()+array[i].slice(1,array[i].length);   
+// }
+// console.log(array.join(' '));
 
 
+
+// 9. На вход программе подается натуральное число n. Напишите программу, которая
+// печатает звездный прямоугольник размерами n×10 несколькими способами.
+// 2 -> **********
+// **********
+const num=+prompt();
+const sharps='**********\n';
+console.log(sharps.repeat(num));
 
 
