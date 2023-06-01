@@ -102,8 +102,28 @@
 
 
 // 19. Выведите столбец чисел от 1 до 50. for, while
-let i=1;
-while(i<=50){
-    console.log(i);
-    i++;
-}
+// let i=1;
+// while(i<=50){
+//     console.log(i);
+//     i++;
+// }
+
+// 20.[1, 2, 3, 4, 5]. Выведите каждый элемент массива 3 любыми циклами
+
+// const array=[1, 2, 3, 4, 5];
+//1способ
+// array.forEach(element => {
+//     console.log(element);
+// });
+
+//2 способ
+// for(let i=0;i<array.length;i++){
+//     console.log(array[i]);
+// }
+
+//3 cпособ
+// let i=0;
+// while(i<array.length){
+//     console.log(array[i])
+//     i++;
+// }
