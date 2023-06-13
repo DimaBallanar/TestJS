@@ -14,9 +14,31 @@
 // document.querySelector("button").addEventListener("dblclick", function () {
 //     const colors = ["#123", "#B33", "#C63", "#A23"];
 //     this.style.background = colors[Math.floor(Math.random() * colors.length)];
-
 // });
 
+
+// 16. Вывести в строчку все вводимые значения через инпут в виде массива. Добавить 
+// проверку, что поле не пустое. После каждого клика очищать значение input. Если 
+// вводимое значение не проходит валидацию, то на месте массива вывести 
+// сообщение об ошибке красным цветом
+function addtext() {
+    let spantext = document.querySelector("div");
+    let text = document.createElement("span");
+    const inputText = document.querySelector("input");
+    if(inputText.value){
+    text.textContent = inputText.value+' , ';
+    spantext.appendChild(text);
+    inputText.value="";
+    }
+    else{
+        text.textContent = "ERROR";
+        text.style.color='red';
+        spantext.appendChild(text);
+    }
+}
+
+const button = document.querySelector("button");
+button.addEventListener("click", addtext);
 
 
 //17 Добавьте картинку на страницу. При наведении на картинку мышкой необходимо 
