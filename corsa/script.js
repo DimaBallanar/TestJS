@@ -151,5 +151,11 @@
 
 
 
-const button=document.querySelector("li");
-button.addEventListener("click",(event)=>{alert(event.target)});
+const button=document.querySelector(".list");
+button.addEventListener("click",(event)=>{alert(event.target.value)});
+// function takeContext(){
+//     const taker=
+// }
+// const list=document.querySelector(".list");
+// list.addEventListener("click",)
+
