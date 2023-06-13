@@ -149,13 +149,13 @@
 // const button = document.querySelector("button");
 // button.addEventListener("click", addtext);
 
+// 13На странице расположен маркированный список. Пользователь кликает на 
+// каждый item списка. Необъодимо отловить на какой из элементов нажал 
+// пользователь и отобразить
 
+// const button=document.querySelector(".list");
+// button.addEventListener("click",(event)=>{alert(event.target.textContent)});
 
-const button=document.querySelector(".list");
-button.addEventListener("click",(event)=>{alert(event.target.value)});
-// function takeContext(){
-//     const taker=
-// }
 // const list=document.querySelector(".list");
 // list.addEventListener("click",)
 

@@ -1,8 +1,8 @@
 
 // 13 задача*(*********************************)
 // function showtext(){
-//     // const show=document.querySelector("button");
-// // alert('hi');
+    // const show=document.querySelector("button");
+// alert('hi');
 // console.log('hi');
 // }
 // const chep=document.querySelector("button");
@@ -21,24 +21,23 @@
 // проверку, что поле не пустое. После каждого клика очищать значение input. Если 
 // вводимое значение не проходит валидацию, то на месте массива вывести 
 // сообщение об ошибке красным цветом
-function addtext() {
-    let spantext = document.querySelector("div");
-    let text = document.createElement("span");
-    const inputText = document.querySelector("input");
-    if(inputText.value){
-    text.textContent = inputText.value+' , ';
-    spantext.appendChild(text);
-    inputText.value="";
-    }
-    else{
-        text.textContent = "ERROR";
-        text.style.color='red';
-        spantext.appendChild(text);
-    }
-}
-
-const button = document.querySelector("button");
-button.addEventListener("click", addtext);
+// function addtext() {
+//     let spantext = document.querySelector("div");
+//     let text = document.createElement("span");
+//     const inputText = document.querySelector("input");
+//     if(inputText.value){
+//     text.textContent = inputText.value+' , ';
+//     spantext.appendChild(text);
+//     inputText.value="";
+//     }
+//     else{
+//         text.textContent = "ERROR";
+//         text.style.color='red';
+//         spantext.appendChild(text);
+//     }
+// }
+// const button = document.querySelector("button");
+// button.addEventListener("click", addtext);
 
 
 //17 Добавьте картинку на страницу. При наведении на картинку мышкой необходимо 
@@ -61,3 +60,35 @@ button.addEventListener("click", addtext);
 // document.querySelector("img").addEventListener("mouseleave", function () {
 //     this.src = "./lion1.jpg";
 // });
+
+
+// 18. Вы вводите строку. Проверить является ли это слово палиндром. Добавить 
+// проверки
+// function checktext() {
+//     let spantext = document.querySelector("div");
+//     let text = document.createElement("p");
+//     const inputText = document.querySelector("input");
+
+//     if (isNaN(inputText.value)) {
+//         const tex = inputText.value;
+//         for (let i = 0; i < tex.length / 2; i++) {
+//             if (tex[i] != tex[tex.length - 1 - i]) {
+//                 text.textContent = "Не палиндром";
+//                 spantext.appendChild(text);
+                
+//             }
+//         }
+
+
+
+        
+//         inputText.value = "";
+//     }
+//     else {
+//         text.textContent = "ERROR";
+//         text.style.color = 'red';
+//         spantext.appendChild(text);
+//     }
+// }
+// const button = document.querySelector("button");
+// button.addEventListener("click", checktext);
